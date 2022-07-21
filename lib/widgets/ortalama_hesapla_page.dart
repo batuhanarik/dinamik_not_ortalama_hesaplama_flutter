@@ -1,6 +1,7 @@
 import 'package:dinamik_not_ortalama_hesaplama/constants/app_constants.dart';
 import 'package:dinamik_not_ortalama_hesaplama/helper/data_helper.dart';
 import 'package:dinamik_not_ortalama_hesaplama/model/ders.dart';
+import 'package:dinamik_not_ortalama_hesaplama/widgets/ders_listesi.dart';
 import 'package:dinamik_not_ortalama_hesaplama/widgets/ortalama_goster.dart';
 import 'package:flutter/material.dart';
 
@@ -42,12 +43,9 @@ class _OrtalamaHesaplaPageState extends State<OrtalamaHesaplaPage> {
               ),
             ],
           ),
-          Expanded(
-            child: Container(
-              child: Text('Form buraya gelecektir.'),
-              color: Colors.blue,
-            ),
-          ),
+          // Expanded(
+          //   child: DersListesi(),
+          // ),
           //liste
         ],
       ),

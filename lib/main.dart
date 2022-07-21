@@ -1,5 +1,6 @@
 import 'package:dinamik_not_ortalama_hesaplama/constants/app_constants.dart';
 import 'package:dinamik_not_ortalama_hesaplama/widgets/ortalama_hesapla_page.dart';
+import 'package:dinamik_not_ortalama_hesaplama/widgets/ortalama_hesapla_page2.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Constants.mainColor,
         visualDensity: VisualDensity.adaptivePlatformDensity
       ),
-      home:OrtalamaHesaplaPage(),
+      home:OrtalamaHesaplaPage2(),
     );
   }
 }
